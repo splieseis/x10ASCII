@@ -71,7 +71,7 @@ module.exports = {
     asciiArtObj[5].push("|_|  |_|");
     return asciiArtObj;
   },
-  addI: function(asciiArtObj) {
+  i: function(asciiArtObj) {
     asciiArtObj[0].push(" _ ");
     asciiArtObj[1].push("| |");
     asciiArtObj[2].push("| |");

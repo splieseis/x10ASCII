@@ -1,8 +1,8 @@
-const {a, b, c, d, e, f, g, h, addI, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z } = require( './chars.js' );
+const {a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z } = require( './chars.js' );
 const { space, dot, underscore, dash, exclemationMark, questionMark, slash, backslash, leftBrace, rightBrace, percent, dollar, plus, singleQuotationMark, doubleQuotationMark, atSign } = require( './utils.js' );
 
 module.exports = {
-  genASCIIArt(string) {
+  x10(string) {
     string = string.toUpperCase();
     let asciiArtObj = [
       [""],
@@ -14,8 +14,8 @@ module.exports = {
     ];
     let asciiArtString = "";
     // loop through string and add each character to the asciiArtObj
-    for (let i = 0; i < string.length; i++) {
-      let char = string[i];
+    for (let index = 0; index < string.length; index++) {
+      let char = string[index];
       if (char === "\n") {
         for (let i = 0; i < asciiArtObj.length; i++) {
           asciiArtString += Object.values(asciiArtObj[i]).join("");
@@ -44,7 +44,7 @@ module.exports = {
       } else if (char === "H") {
         h(asciiArtObj);
       } else if (char === "I") {
-        addI(asciiArtObj);
+        i(asciiArtObj);
       } else if (char === "J") {
         j(asciiArtObj);
       } else if (char === "K") {

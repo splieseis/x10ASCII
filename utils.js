@@ -129,15 +129,6 @@ module.exports = {
     asciiArtObj[5].push("       ");
     return asciiArtObj;
   },
-  /*atSign: function(asciiArtObj) {
-    asciiArtObj[0].push(" ______ ");
-    asciiArtObj[1].push("|  __  |");
-    asciiArtObj[2].push("| |  | |");
-    asciiArtObj[3].push("| |__|_|");
-    asciiArtObj[4].push("|       ");
-    asciiArtObj[5].push("|______");
-    return asciiArtObj;
-  },*/
   atSign: function(asciiArtObj) {
     asciiArtObj[0].push("       ");
     asciiArtObj[1].push(" _____ ");
@@ -146,14 +137,5 @@ module.exports = {
     asciiArtObj[4].push("| |___|");
     asciiArtObj[5].push("|____  ");
     return asciiArtObj;
-  },
-  blocks: function(asciiArtObj) {
-    asciiArtObj[0].push("   ");
-    asciiArtObj[1].push(" _____ ");
-    asciiArtObj[2].push("|  _  |");
-    asciiArtObj[3].push("| | | |");
-    asciiArtObj[4].push("| |___|");
-    asciiArtObj[5].push("|____  ");
-    return asciiArtObj
-  },//█ 
+  }
 };
