@@ -1,5 +1,6 @@
-const {a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z } = require( './chars.js' );
-const { space, dot, underscore, dash, exclemationMark, questionMark, slash, backslash, leftBrace, rightBrace, percent, dollar, plus, singleQuotationMark, doubleQuotationMark, atSign } = require( './utils.js' );
+const { a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z } = require('./chars.js');
+const { space, dot, underscore, dash, exclemationMark, questionMark, slash, backslash, leftBrace, rightBrace, percent, dollar, plus, singleQuotationMark, doubleQuotationMark, atSign } = require('./utils.js');
+const { zero, one, two, three, four, five, six, seven, eight, nine } = require('./numbers.js');
 
 module.exports = {
   x10(string) {
@@ -111,6 +112,26 @@ module.exports = {
         doubleQuotationMark(asciiArtObj);
       } else if (char === "@") {
         atSign(asciiArtObj);
+      } else if (char === "0") {
+        zero(asciiArtObj);
+      } else if (char === "1") {
+        one(asciiArtObj);
+      } else if (char === "2") {
+        two(asciiArtObj);
+      } else if (char === "3") {
+        three(asciiArtObj);
+      } else if (char === "4") {
+        four(asciiArtObj);
+      } else if (char === "5") {
+        five(asciiArtObj);
+      } else if (char === "6") {
+        six(asciiArtObj);
+      } else if (char === "7") {
+        seven(asciiArtObj);
+      } else if (char === "8") {
+        eight(asciiArtObj);
+      } else if (char === "9") {
+        nine(asciiArtObj);
       } else {
         space(asciiArtObj);
       }

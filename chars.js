@@ -126,12 +126,12 @@ module.exports = {
     return asciiArtObj;
   },
   o: function(asciiArtObj) {
-    asciiArtObj[0].push(" _____ ");
-    asciiArtObj[1].push("|  _  |");
-    asciiArtObj[2].push("| | | |");
-    asciiArtObj[3].push("| | | |");
-    asciiArtObj[4].push("| |_| |");
-    asciiArtObj[5].push("|_____|");
+    asciiArtObj[0].push(" ______ ");
+    asciiArtObj[1].push("|  __  |");
+    asciiArtObj[2].push("| |  | |");
+    asciiArtObj[3].push("| |  | |");
+    asciiArtObj[4].push("| |__| |");
+    asciiArtObj[5].push("|______|");
     return asciiArtObj;
   },
   p: function(asciiArtObj) {
@@ -189,12 +189,12 @@ module.exports = {
     return asciiArtObj;
   },
   v: function(asciiArtObj) {
-    asciiArtObj[0].push(" _   _  ");
-    asciiArtObj[1].push("| | | | ");
-    asciiArtObj[2].push("| | | | ");
-    asciiArtObj[3].push("| | | | ");
-    asciiArtObj[4].push("\\ \\_/ / ");
-    asciiArtObj[5].push(" \\___/  ");
+    asciiArtObj[0].push(" _   _ ");
+    asciiArtObj[1].push("| | | |");
+    asciiArtObj[2].push("| | | |");
+    asciiArtObj[3].push("| | | |");
+    asciiArtObj[4].push("\\ \\_/ /");
+    asciiArtObj[5].push(" \\___/ ");
     return asciiArtObj;
   },
   w: function(asciiArtObj) {
@@ -216,12 +216,12 @@ module.exports = {
     return asciiArtObj;
   },
   y: function(asciiArtObj) {
-    asciiArtObj[0].push(" _   _  ");
-    asciiArtObj[1].push("\\ \\_/ / ");
-    asciiArtObj[2].push(" \\   /  ");
-    asciiArtObj[3].push("  | |   ");
-    asciiArtObj[4].push("  | |   ");
-    asciiArtObj[5].push("  |_|   ");
+    asciiArtObj[0].push(" _   _ ");
+    asciiArtObj[1].push("\\ \\_/ /");
+    asciiArtObj[2].push(" \\   / ");
+    asciiArtObj[3].push("  | |  ");
+    asciiArtObj[4].push("  | |  ");
+    asciiArtObj[5].push("  |_|  ");
     return asciiArtObj;
   },
   z: function(asciiArtObj) {
