@@ -1,0 +1,28 @@
+{
+  "name": "x10ascii",
+  "version": "1.0.0",
+  "description": "x10 any string and become a x10 engineer!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node examples.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splieseis/x10ASCII.git"
+  },
+  "keywords": [
+    "x10",
+    "ascii",
+    "fun",
+    "console.log",
+    "zero-dependencies",
+    "debugging",
+    "debugging-tool"
+  ],
+  "author": "Simon Plieseis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/splieseis/x10ASCII/issues"
+  },
+  "homepage": "https://github.com/splieseis/x10ASCII#readme"
+}
