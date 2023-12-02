@@ -18,12 +18,12 @@ module.exports = {
     return asciiArtObj;
   },
   c: function(asciiArtObj) {
-    asciiArtObj[0].push(" _____ ");
-    asciiArtObj[1].push("|  ___|");
-    asciiArtObj[2].push("| |    ");
-    asciiArtObj[3].push("| |    ");
-    asciiArtObj[4].push("| |___ ");
-    asciiArtObj[5].push("|_____|");
+    asciiArtObj[0].push(" ____ ");
+    asciiArtObj[1].push("|  __\\");
+    asciiArtObj[2].push("| |   ");
+    asciiArtObj[3].push("| |   ");
+    asciiArtObj[4].push("| |__ ");
+    asciiArtObj[5].push("|____/");
     return asciiArtObj;
   },
   d: function(asciiArtObj) {
