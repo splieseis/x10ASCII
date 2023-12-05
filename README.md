@@ -45,7 +45,7 @@ console.log(x10("0123456789!+-\nABCDEFGHIJKLM\nNOPQRSTUVWXY\nZ.(_)$\"@\"%\'?\'")
 ```
 
 ```javascript
-const { log, test, here } = require('x10ASCII');
+const { log, test, here } = require('x10ascii');
 
 // easly print and style your console logs for debugging or just fun
 test(1, ["x10", "blue", "singleArrow"]);
