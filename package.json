@@ -1,7 +1,7 @@
 {
   "name": "x10ascii",
   "version": "2.0.0",
-  "description": "Step up your console.log game and become a x10 engineer!",
+  "description": "Easily log, style and x10 any string!",
   "main": "index.js",
   "scripts": {
     "test": "node examples.js"

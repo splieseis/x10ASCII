@@ -3,7 +3,7 @@
 # Version 2.0.0.
 
 ## Overview
-### Easily log, debug and x10 any string.
+### Easily log, style and x10 any string!
 
 ## Functions
 
