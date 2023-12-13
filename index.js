@@ -1,5 +1,5 @@
-const { logStyledMessage, logTextWithNumber } = require('./logs.js');
-const { x10String } = require('./utils.js');
+const { logStyledMessage, logTextWithNumber, logTablesWithStyles } = require('./logs.js');
+const { x10String, styleString } = require('./utils.js');
 
 module.exports = {
   x10(string) {
@@ -13,5 +13,11 @@ module.exports = {
   },
   here(number, styles = ["x10", "green", "doubleArrow"]) {
     logTextWithNumber("HERE", number, styles);
+  },
+  style(string, styles = ["red"]) {
+    return styleString(string, styles);
+  },
+  table(table, colStyles) {
+    logTablesWithStyles(table, colStyles);
   }
 };

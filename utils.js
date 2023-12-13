@@ -8,6 +8,10 @@ module.exports = {
   getStyleCodesFromStyles: (stylesArray) => {
     return stylesArray.map(style => allStyles[style] || '').join('');
   },
+  styleString: (string, styles) => {
+    let styleCodes = module.exports.getStyleCodesFromStyles(styles);
+    return `${styleCodes}${string}\x1b[0m`; // Reset at the end
+  },
   x10String: (string) => {
       string = string.toUpperCase();
       let asciiArtObj = [
